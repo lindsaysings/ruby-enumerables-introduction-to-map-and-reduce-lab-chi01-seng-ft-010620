@@ -62,3 +62,14 @@ def reduce_to_total(source_array, starting_point = nil)
  p sum
 end
 
+def reduce_to_all_true(source_array)
+  
+    i = 0
+
+  while source_array[i] == true
+
+    sum = sum +source_array[i]
+    i += 1
+  end
+ p sum
+end
