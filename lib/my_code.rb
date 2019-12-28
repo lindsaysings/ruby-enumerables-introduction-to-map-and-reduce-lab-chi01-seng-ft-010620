@@ -68,7 +68,7 @@ def reduce_to_all_true(source_array)
 
   while source_array[i] == true
 
-    sum = sum +source_array[i]
+    true 
     i += 1
   end
  p sum
